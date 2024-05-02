@@ -1,0 +1,64 @@
+/* thankyou.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Thank you container */
+.thank-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Thank you content */
+.thank-you-content {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #1687d933;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Thank you heading */
+.thank-you-content h1 {
+  color: #89115A;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Thank you message */
+.thank-you-content p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Return to Homepage link */
+.return-home {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#89115A;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.return-home:hover {
+  background-color: #ec0891;
+}
+
+/* Font Awesome icons */
+.fa {
+  margin-right: 5px;
+}

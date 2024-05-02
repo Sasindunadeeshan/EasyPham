@@ -1,0 +1,70 @@
+.myorder {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding:30px
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#opt{
+     text-align: center; /* center-align the header */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #1687d933;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    color: #333;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.rate-button, .cancel-button {
+    padding: 8px 12px;
+    background-color:#89115A;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rate-button:hover, .cancel-button:hover {
+    background-color:#ec0891;
+}
+
+.fa {
+    margin-right: 5px;
+}

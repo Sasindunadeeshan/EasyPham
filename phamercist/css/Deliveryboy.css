@@ -1,0 +1,252 @@
+.customerpage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2ram;
+}
+
+body{
+   /* background-image: url("../image/phback.jpg");*/
+   background: linear-gradient(to bottom, #89115A, white);
+   z-index: -1;
+   position: relative;
+}
+
+.customerpage img{
+    border-radius: 100%;
+    border:5px solid white;
+    width: 320px;
+    height: 300px;
+    margin-top: 35%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+
+}
+
+.customerpage input{
+    font-size: 20px;
+    text-align: left;
+}
+
+.customerpage p{
+    font-weight: bold;
+}
+
+
+.cidset{
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+.cid{
+    margin-left: 31%;
+    font-size: 20px;
+    width:30%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.id1{
+    float:left
+}
+
+.id2{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.id3{
+    margin-top: 1%;
+    margin-left: 23.5%;
+    font-size: 20px;
+    width:45%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.pd{
+    font-size: 40px;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #89115A;
+}
+
+.all{
+    background-color: rgba(255,255,255,0.9);
+}
+
+.name{
+    margin-top: 7%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.n1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fname{
+    float:left;
+    margin-top: 2%;
+}
+
+.fname1{
+    font-size: 20px;
+}
+
+.fname2{
+    width:100%;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.lname{
+    display: inline-block;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.lname1{
+    font-size: 20px;;
+}
+
+.lname2{
+    width:100%;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.address{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.ad1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.ad2{
+    width:90%;
+    padding: 1%;
+}
+
+.email{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.email1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email2{
+    width:90%;
+    padding: 1%;
+}
+
+.province{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.pr1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pr2{
+    width:40%;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.city{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.c1{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.c2{
+    width:90%;
+    padding: 1%;
+}
+
+.pc{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.pc1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pc2{
+    width:90%;
+    padding: 1%;
+}
+
+.telno{
+    margin-top: 5%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.tel1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tel2{
+    width:90%;
+    padding: 1%;
+}
+
+.fbutton{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.b2{
+    margin-top: 4%;
+    margin-left: 35%;
+    padding: 2% 5%;
+    font-size: 20px;
+    background-color:#89115A;
+}
+
+.b1{
+    margin-top: 30%;
+    margin-left: 35%;
+    padding: 1% 7%;
+    font-size: 30px;
+    width:40%;
+    background-color:#89115A;
+}
+
+
+.b3{
+    margin-top: 10%;
+    margin-left: 35.5%;
+    padding: 1% 6%;
+    font-size: 30px;  
+    background-color:#89115A;
+}
+
+.fbutton2{
+    margin-top: 55%;
+    margin-left: 43%;
+}
+
+.b4{
+    background-color:#89115A;
+}
+
+.b5{
+    background-color:#89115A;
+}

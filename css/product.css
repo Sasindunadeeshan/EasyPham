@@ -1,0 +1,148 @@
+/*Icon Css*/
+
+.myproduct-row{
+  display: inline-block;
+}
+.myproduct-container {
+    display:flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+    
+
+  .myproduct-card {
+    width:200px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 30px 50px 0;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 10px 20px #1687d933;
+  }
+  
+  .myproduct-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .myproduct-card img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .myproduct-card:hover img {
+    opacity: 0.7;
+  }
+  
+  
+  .myproduct-description {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    pointer-events: none;
+  }
+  
+  .myproduct-card:hover .myproduct-description {
+    opacity: 1;
+    transform: translateY(0%);
+    pointer-events: auto;
+  }
+  
+  .myproduct-description:hover {
+    background-color: #eef2f5;
+  }
+  
+  .myproduct-title{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .myproduct-price {
+    font-weight: bold;
+    margin:0;
+    padding:10px;
+    text-align: center;
+  }
+  
+  .myadd-to-cart {
+    margin-left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#89115A;
+    border: none;
+    border-radius: 4px;
+    margin-top: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .myadd-to-cart:hover {
+    background-color: #ec0891;
+  }
+  
+ .mydiscriptions{
+    text-align: center;
+    text-align: justify;
+ }
+
+
+/* The side navigation menu */
+.sidebar {
+  float:left;
+  margin-left: 10px ;
+  margin-top: 30px;
+  margin-bottom: auto;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+  height: 100%;
+  overflow: auto;
+
+  border-left: 3px solid;
+  border-color:#89115A;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover{
+  color:#ec0891;
+ 
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #fff;
+  color: #89115A;
+}
+
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+
+  margin-bottom: 500px;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}

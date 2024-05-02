@@ -1,0 +1,122 @@
+/* Reset default styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+   /* body styles */
+   body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #89115A, white);
+	filter: blur(10px);
+	z-index: -1;
+  }
+  
+.signin {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  .sin-input-group.sin-gender {
+	display:flex;
+	align-items: center;
+	gap: 0px;
+  }
+  
+  .sin-input-group.sin-gender p {
+	margin-right: 10px;
+  }
+  
+  /* Login box styles */
+  .sin-signinbox {
+	margin: 30px auto;
+	width: 700px;
+	padding: 40px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sin-signinbox h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 30px;
+  }
+  
+  .sin-input-group {
+	margin-bottom: 25px;
+  }
+  
+  .sin-input-group p {
+	margin-bottom: 7px;
+	font-size: 14px;
+	color: #555;
+  }
+  
+  .sin-input-group input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+  }
+  
+  .sin-dropdown {
+	margin-bottom: 20px;
+  }
+  
+  .sin-dropdown p {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 5px;
+  }
+  
+  .sin-dropdown-content {
+	position: relative;
+  }
+  
+  .sin-dropdown-content select {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+  }
+  
+  .sin-cbox-section {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .sin-cbox-section input[type="checkbox"] {
+	margin-right: 5px;
+  }
+  
+  .sin-signinButton {
+	text-align: center;
+  }
+  
+  .sin-signinButton input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #89115A;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .sin-signinButton input[type="submit"]:hover {
+	background-color: #660d3d;
+  }

@@ -1,0 +1,156 @@
+/* Profile photo */
+.pp {
+    border-radius: 100%;
+    border: 10px solid #fff;
+    width: 250px;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* User ID */
+  .id {
+    margin-top: 14.5%;
+    margin-bottom: 0;
+    margin-left: 6%;
+    font-size: 20px;
+    width: 10%;
+    color: #555;
+  }
+  
+  .id1 {
+    float: left;
+  }
+  
+  .id2 {
+    display: inline-block;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  
+  /* Function buttons */
+  .fbutton1 {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .orderbutton,
+  .itembutton {
+    width: 45%;
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #89115A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .orderbutton:hover,
+  .itembutton:hover {
+    background-color: #660d3d;
+  }
+  
+  /* Profile Details */
+  .all {
+    margin-top: 2%;
+    font-size: 20px;
+  }
+  
+  .nameaddress {
+    float: left;
+    margin-left: 2%;
+    width: 50%;
+  }
+  
+  .name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .nn1 {
+    float: left;
+    font-weight: bold;
+  }
+  
+  .nn2 {
+    display: inline-block;
+    margin-left: 2%;
+  }
+  
+  .address {
+    margin-top: 5%;
+    width: 100%;
+  }
+  
+  .ad1 {
+    float: left;
+    font-weight: bold;
+  }
+  
+  .ad2 {
+    display: inline-block;
+    margin-left: 2%;
+  }
+  
+  .emailtelno {
+    display: inline-block;
+    width: 40%;
+    margin-right: 2%;
+  }
+  
+  .email,
+  .telno {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  
+  .en1,
+  .tn1 {
+    float: left;
+    font-weight: bold;
+  }
+  
+  .en2,
+  .tn2 {
+    display: inline-block;
+    margin-left: 2%;
+  }
+  
+  /* Function buttons 2 */
+  .fbutton2 {
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .pwbutton,
+  .deletebutton,
+  .updatebutton {
+    margin-top: 100px;
+    width: 30%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #89115A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .pwbutton:hover,
+  .deletebutton:hover,
+  .updatebutton:hover {
+    background-color: #660d3d;
+  }
+  

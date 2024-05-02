@@ -1,0 +1,92 @@
+/*.reg-form{
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 500px;
+    height: 70vh;
+    border: 2px black;
+    
+}
+
+.reg-form h1{
+
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
+
+.reg-form p{
+
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.reg-form input{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.reg-form button{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 50%;
+    background-color: #fff;
+    align-items: center;
+}
+
+.reg-form button:hover{
+
+    background-color: rgb(14, 2, 24);
+}*/
+
+
+.reg-form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.reg-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
+
+.reg-form p {
+    margin-top: 10px;
+}
+
+.reg-form input[type="text"],
+.reg-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reg-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #89115A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reg-form button[type="submit"]:hover {
+    background-color: #ec0891;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <nav class="adm-navbar">
+        <div class="adm-navbar-logo">
+            <a href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
+        </div>
+        <ul class="adm-navbar-menu">
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-users"></i> Users</a></li>
+            <li><a href="#"><i class="fa fa-cogs"></i> Settings</a></li>
+            <!-- Add more navigation links with icons as needed -->
+        </ul>
+    </nav>
+
+    <div class="adm-container">
+        <div class="adm-sidebar">
+            <ul class="adm-sidebar-menu">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fa fa-users"></i> Users</a></li>
+                <li><a href="#"><i class="fa fa-cogs"></i> Settings</a></li>
+                <!-- Add more sidebar links with icons as needed -->
+            </ul>
+        </div>
+        <div class="adm-dashboard">
+            <h1>Welcome to the Admin Dashboard</h1>
+            <!-- Add your dashboard content here -->
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+css
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.adm-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.adm-navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.adm-navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.adm-navbar-menu li {
+    margin-right: 10px;
+}
+
+.adm-navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.adm-container {
+    display: flex;
+}
+
+.adm-sidebar {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 20px;
+}
+
+.adm-sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.adm-sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.adm-sidebar-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.adm-dashboard {
+    flex: 1;
+    padding: 20px;
+}
+
+
+

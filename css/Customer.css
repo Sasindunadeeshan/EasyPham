@@ -1,0 +1,146 @@
+body {
+    background: linear-gradient(to bottom, #89115A, white);
+}
+
+.coscustomerpage {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    margin: 20px 350px 20px 350px ;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.coscustomerpage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.coscidset {
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+
+.cospp{
+
+    margin-left: 200px;
+}
+
+.coscid {
+    margin-left: 200px;
+    margin-top:10px;
+    font-weight:bold;
+    font-size: 35px;
+}
+
+.cosid1 {
+    font-weight: bold;
+}
+
+.cosid2 {
+    font-size: 18px;
+    margin-right: 310px;
+    text-align: center;
+}
+
+.cosid3 {
+    font-size: 16px;
+}
+
+.cosall {
+    margin-top: 20px;
+}
+
+.cospd {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cosname,
+.cosaddress,
+.cosemail,
+.cosprovince,
+.coscity,
+.cospc,
+.costelno {
+    margin-bottom: 20px;
+}
+
+.cosn1,
+.cosad1,
+.cosemail1,
+.cospr1,
+.cosc1,
+.cospc1,
+.costel1 {
+    font-weight: bold;
+}
+
+.cosn2,
+.cosad2,
+.cosemail2,
+.cospr2,
+.cosc2,
+.cospc2,
+.costel2 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.cospr2 {
+    height: 40px;
+}
+
+.cosfbutton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cosfbutton1,
+.cosfbutton2 {
+    width: 40%;
+}
+
+.cosfbutton1 button,
+.cosfbutton2 button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #89115A;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:10px;
+}
+
+.cosfbutton1 .cosb1 {
+    margin-bottom: 10px;
+}
+
+.cosfbutton2 .cosb4 {
+    margin-bottom: 10px;
+}
+
+.cosfbutton2 .cosb5 {
+    margin-bottom: 10px;
+    background-color: rgb(219, 12, 12);
+}
+
+.cosfbutton1 .cosb1:hover,
+.cosfbutton1 .cosb3:hover,
+.cosfbutton2 .cosb4:hover,
+.cosfbutton2 .cosb5:hover {
+    background-color: #ec0891;
+}

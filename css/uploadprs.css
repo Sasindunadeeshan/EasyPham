@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Form Styles */
+  .prs-feedback {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px #1687d933;
+  }
+  
+  .prs-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .prs-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .prs-input-text,
+  .prs-input-file,
+  .prs-input-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* File Input Styles */
+.prs-input-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.prs-input-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 100px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.prs-input-file .prs-choose-file-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.prs-input-file .prs-choose-file-button:hover {
+  background-color: #45a049;
+}
+
+.prs-input-file .prs-selected-file {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.prs-input-file .prs-selected-file:hover {
+  background-color: #eee;
+}
+
+  .prs-input-file {
+    cursor: pointer;
+  }
+  
+  .prs-file-format {
+    font-size: 12px;
+    color: #888;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .prs-submit-button {
+    background-color: #89115A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .prs-submit-button:hover {
+    background-color: #ec0891;
+  }
+  
+ 
+  
